@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body{
+    background-color: #fffefa;
+}
+
+/* Common Classes*/
+
+.btn{
+    background-color: #872BFF;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 11px 31px 0 #8c8c8c;
+    cursor: pointer;
+    margin-right: 20px;
+
+    transition: all 0.5s ease;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    border: 2px solid #872BFF;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #872BFF;
+}
+
+.btn-white:hover{
+    background-color: #872BFF;
+    color: white;
+    border: none;
+}
+.container{
+    width: 87.5%;
+    margin: 0 auto;
+    padding-right: 0 20px;
+}
+
+.heading{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.heading h4{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #6a14da;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.heading h2{
+    font-size: 44px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.card{
+    background-color: #FFFFFF;
+    padding: 40px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 4px 4px #00000025;
+    border-radius: 16px;
+}
+
+.card *{
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    width: 330px;
+    box-shadow: 0 8px 16px #872BFF50;
+    transition: all 0.3s ease;
+}
+
+.card h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card p{
+    font-size: 16px;
+    color: #8a8a8a;
+
+}
+
+.card a{
+    color: black;
+    font-weight: bold;
+}
+
+.project-card{
+    padding: 48px;
+    background-color: white;
+    border: 1px solid #872BFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px #00000025;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.project-img img{
+    width: 400px;
+    border-radius: 16px;
+}
+
+.project-content h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.project-content h1{
+    font-size: 16px;
+    color: #8c8c8c70;
+}
+
+.project-content p{
+    font-size: 16px;
+    color: #8a8a8a;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+.project-content *{
+    margin-bottom: 20px;
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px #872BFF50;
+    transition: all 0.3s ease;
+}
+
+.company-card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.brands{
+    padding: 40px;
+    box-shadow: 0 4px 4px #00000025;
+    border-radius: 16px;
+}
+
+.brands:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px #872BFF50;
+    transition: all 0.3s ease;
+}
+
+.btn-container{
+   padding: 60px 0;
+    text-align: center;
+}
+
+
+#hero{
+    padding-top: 50px;
+    background-image: url(assets/Hero-bg.png);
+    margin-bottom: 150px;
+}
+
+#hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 87.5%;
+    margin: 0 auto;
+    padding-right: 20px;
+}
+
+#hero-content{
+    padding-bottom: 10px;
+}
+
+#hero-content h1{
+    font-size: 58px; 
+    margin-bottom: 30px;
+
+}
+
+#hero-content h1 span{
+    color: #872bff;
+}
+
+#hero-content p{
+    font-size: 16px;
+    color: #8a8a8a;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+#hero-img img{
+    width: 500px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+#skills{
+    margin-bottom: 150px;
+}
+
+#projects{
+    margin-bottom: 150px;
+
+}
+
+#experience{
+    margin-bottom: 150px;
+}
+
+#footer{
+    display: flex;
+    padding: 17px;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    text-align: left;
+    color: black;
+    border: 1px solid #872BFF;
+}
+
+#footer-container{
+    font-size: 16px;
+    color: #5b5757;
+    margin-left: 123px;
+    margin-top: 5px;
+}
+.foot-img{
+    display: flex;
+    align-items: center;
+    margin-right: 123px;
+    gap: 32px;
+}
+
+.foot-img img{
+    width: 30px;
+    height: 30px;
+}
+
+.foot-img img:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
